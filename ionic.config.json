@@ -1,0 +1,8 @@
+{
+  "name": "dbfit",
+  "app_id": "fdbe5f11",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

@@ -25677,3 +25677,36 @@ ion-navbar.toolbar {
   min-height: calc(46px + constant(safe-area-inset-bottom));
   min-height: calc(46px + env(safe-area-inset-bottom));
 }
+
+page-login img {
+  margin-top: 60px;
+}
+
+page-login button {
+  width: 250px;
+}
+
+page-login .logonbtn {
+  width: 250px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+}
+
+page-login .informs {
+  width: 270px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+page-root img {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+page-root button {
+  width: 250px;
+}

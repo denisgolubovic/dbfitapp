@@ -5,9 +5,9 @@
 		</ion-col>
 	</ion-row>
 
-	<ion-row class="informs">
+	<ion-row class="formStyle">
 		<ion-col>
-			<ion-input type="text" placeholder="Användarnamn/Email"></ion-input>
+			<ion-input type="email" placeholder="Användarnamn/Email"></ion-input>
 			<ion-input type="password" placeholder="Lösenord"></ion-input>					
 		</ion-col>
 	</ion-row>
@@ -18,9 +18,9 @@
 		</ion-col>
 	</ion-row>
 
-	<ion-row class="logonbtn">
+	<ion-row class="logobtnStyle">
 		<ion-col>
-			<button ion-button outline>Logga in</button>
+			<button ion-button (click)="login()" outline>Logga in</button>
 		</ion-col>		
 	</ion-row>
 

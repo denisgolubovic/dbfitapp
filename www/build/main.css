@@ -25686,20 +25686,25 @@ page-login button {
   width: 250px;
 }
 
-page-login .logonbtn {
+page-login .logobtnStyle {
   width: 250px;
   margin-right: auto;
   margin-left: auto;
   margin-top: 20px;
 }
 
-page-login .informs {
+page-login .formStyle {
   width: 270px;
   margin-right: auto;
   margin-left: auto;
   margin-top: 30px;
   margin-bottom: 10px;
   font-size: 18px;
+}
+
+page-overview .cardStyle {
+  margin-top: 30px;
+  height: 150px;
 }
 
 page-root img {

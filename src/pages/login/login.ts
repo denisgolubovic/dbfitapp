@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
+
+import { OverviewPage } from '../overview/overview';
 	
 @Component({
   selector: 'page-login',
@@ -11,4 +13,7 @@ export class LoginPage {
 
   }
 
+  login() {
+    this.navCtrl.push(OverviewPage)
+  }
 }

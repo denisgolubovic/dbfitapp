@@ -3,6 +3,7 @@ import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
+import { ChartsModule } from 'ng2-charts';
 
 import { MyApp } from './app.component';
 import { RootPage } from '../pages/root/root';
@@ -18,7 +19,8 @@ import { OverviewPage } from '../pages/overview/overview';
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    ChartsModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -26,7 +28,7 @@ import { OverviewPage } from '../pages/overview/overview';
     RootPage,
     LoginPage,
     OverviewPage
-  ],
+  ],  
   providers: [
     StatusBar,
     SplashScreen,
